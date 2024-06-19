@@ -18,3 +18,6 @@ print(nums.count(3))
 
 freq = [[] for i in range(len(nums)+1)]
 print(freq)
+
+str1 = "sabaruhee"
+print(str1[1:4])
