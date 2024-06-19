@@ -11,3 +11,10 @@ str2 = "eating"
 
 sorted_str2= "".join(sorted(str2) )
 print(sorted_str2)
+
+# COUNT
+nums = [1,1,1,2,2,3,100,110,110];
+print(nums.count(3))
+
+freq = [[] for i in range(len(nums)+1)]
+print(freq)
