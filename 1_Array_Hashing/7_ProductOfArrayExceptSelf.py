@@ -52,7 +52,7 @@ def productExceptSelf(nums):
     print("Prefix", prefix)
     print("Postfix", postfix)
     print("Result", result)
-    return False
+    return result
 
 nums = [1,2,3,4];
 result = productExceptSelf(nums);

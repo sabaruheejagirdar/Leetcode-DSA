@@ -21,3 +21,6 @@ print(freq)
 
 str1 = "sabaruhee"
 print(str1[1:4])
+
+postfix = [1 for i in range(len(nums))]
+print(postfix)
