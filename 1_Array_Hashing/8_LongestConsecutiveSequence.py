@@ -25,6 +25,9 @@ Imagine this on number line->   1,2,3,4,........,100,....,200
 
 
 
+
+
+
 def longestConsecutive(nums):  
     numSet = set(nums)
     longest = 0

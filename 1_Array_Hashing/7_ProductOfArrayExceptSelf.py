@@ -26,6 +26,9 @@ RESULT-         24      12      8       6
 
 
 
+
+
+
 def productExceptSelf(nums):   
     
     prefix = [1 for i in nums]

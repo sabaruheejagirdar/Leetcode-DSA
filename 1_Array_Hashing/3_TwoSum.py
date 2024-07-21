@@ -21,6 +21,18 @@ APPROACH:
 6. Return False if no two numbers add up to the target.
 """
 
+
+
+
+
+
+
+
+
+
+
+
+
 def twoSum(nums, target):   
     seenElements = {}
 
