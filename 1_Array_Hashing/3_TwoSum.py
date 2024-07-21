@@ -22,17 +22,6 @@ APPROACH:
 """
 
 
-
-
-
-
-
-
-
-
-
-
-
 def twoSum(nums, target):   
     seenElements = {}
 

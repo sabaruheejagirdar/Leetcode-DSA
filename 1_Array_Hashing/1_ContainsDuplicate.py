@@ -21,11 +21,6 @@ APPROACH:
 """
 
 
-
-
-
-
-
 def containsDuplicate(nums):   
     numset = set();
 

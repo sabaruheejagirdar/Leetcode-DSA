@@ -18,13 +18,6 @@ APPROACH:
 """
 
 
-
-
-
-
-
-
-
 def isAnagram(s, t):
 
 

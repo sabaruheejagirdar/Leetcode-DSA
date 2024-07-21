@@ -21,13 +21,6 @@ APPROACH:
 """
 
 
-
-
-
-
-
-
-
 def groupAnagrams(strs):   
     dictOfAnagrams = dict()
 

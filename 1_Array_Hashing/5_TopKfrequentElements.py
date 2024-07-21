@@ -26,7 +26,6 @@ values   -->   []    [100]     [2]     [1]     []      []      []
 """
 
 
-
 def topKFrequent(nums, k):   
 
     countOfNum = dict()

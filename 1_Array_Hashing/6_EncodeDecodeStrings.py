@@ -20,13 +20,6 @@ Decoding:
 """
 
 
-
-
-
-
-
-
-
 def encode(strs):
     encodedStr = "";
     for perStr in strs:
