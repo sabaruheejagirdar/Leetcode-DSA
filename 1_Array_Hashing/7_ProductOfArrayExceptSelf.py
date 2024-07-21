@@ -14,7 +14,7 @@ Output: [0,0,9,0,0]
 """
 APPROACH:
 At any given point a number will be product of 
-- all the numbers before it(Prefix) and all the numbers after it(Postfix)
+- All the numbers before it(Prefix) and all the numbers after it(Postfix)
 
 Input-          1       2       3       4
 

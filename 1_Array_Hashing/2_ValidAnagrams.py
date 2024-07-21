@@ -9,8 +9,9 @@ Output: true
 Example 2:
 Input: s = "rat", t = "car"
 Output: false
-
-STEPS:
+"""
+"""
+APPROACH:
 1. Check lengths: If the lengths of the strings are different, return False
 2. Count characters: Create dictionaries to count characters in each string
 3. Compare counts: If the character counts in the dictionaries do not match, return False

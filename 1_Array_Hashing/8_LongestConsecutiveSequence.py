@@ -16,11 +16,14 @@ Output: 9
 """
 APPROACH:
 Imagine this on number line->   1,2,3,4,........,100,....,200
+
 - 1,100,200 is the first digit of sequence because the previous digit doesn't exist i.e- 0,99,199
 - Get the first digit
 - Keep checking if the next exists and calculate its length
 - Keep track of the longest sequence formed
 """
+
+
 
 def longestConsecutive(nums):  
     numSet = set(nums)

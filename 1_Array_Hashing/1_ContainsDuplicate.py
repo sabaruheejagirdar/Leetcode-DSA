@@ -11,13 +11,20 @@ Output: true
 Example2
 Input: nums = [1,2,3,4]
 Output: false
-
+"""
+"""
 APPROACH:
 1. Create a SET to keep track of visited elements
 2. If element exists in the SET, return true
         Else, add the element to the SET
 3. All elements traversed and no duplicate found in SET then return false
 """
+
+
+
+
+
+
 
 def containsDuplicate(nums):   
     numset = set();

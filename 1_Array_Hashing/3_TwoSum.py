@@ -10,7 +10,8 @@ Output: [0,1]
 Example2
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
-
+"""
+"""
 APPROACH:
 1. Create a dictionary to store indices of seen elements.
 2. Iterate through the list.

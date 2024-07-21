@@ -16,6 +16,7 @@ APPROACH:
 [1,1,1,2,2,100]
 i(count) -->    0      1        2      3       4       5       6
 values   -->   []    [100]     [2]     [1]     []      []      []
+
 1. Count Frequencies: 
     Use a dictionary to count the frequency of each element in the array.
 2. Bucket Sort by Frequency: 

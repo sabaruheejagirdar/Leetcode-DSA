@@ -19,7 +19,7 @@ def twoSum(nums, target):
 
     return False
 
-nums = [3,2,4];
+nums = [3,2,4]
 target = 6
-result = twoSum(nums, target);
+result = twoSum(nums, target)
 print(result)
