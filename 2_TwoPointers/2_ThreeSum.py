@@ -26,7 +26,7 @@ def threeSum(nums):
     nums.sort()
 
     for idx, val in enumerate(nums):
-        if val == nums[idx-1]:
+        if idx > 0 and val == nums[idx-1]:
             continue
 
         left, right = idx+1, len(nums)-1
@@ -48,6 +48,6 @@ def threeSum(nums):
     
     return res
 
-nums = [-1,0,1,2,-1,-4]
+nums = [0,0,0]
 result = threeSum(nums)
 print(result)
