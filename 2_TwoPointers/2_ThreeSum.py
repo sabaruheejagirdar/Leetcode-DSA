@@ -33,6 +33,8 @@ def threeSum(nums):
 
         while left < right:
             threeSum = val + nums[left] + nums[right]
+            numLeft = nums[left]
+            numRight = nums[right]
 
             if threeSum< 0:
                 left += 1
@@ -41,11 +43,11 @@ def threeSum(nums):
             else:
                 res.append([val, nums[left], nums[right]])
                 left += 1
-                while nums[left] != nums[left-1] and left < right:
+                while nums[left] == nums[left-1] and left < right:
                     left += 1
     
     return res
 
-nums = [-3,-3,1,2,3,4]
+nums = [-1,0,1,2,-1,-4]
 result = threeSum(nums)
 print(result)
