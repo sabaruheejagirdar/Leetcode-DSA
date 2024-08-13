@@ -20,7 +20,9 @@ Input-          1       2       3       4
 
 Prefix-         1       1       2       6
 Postfix-        24      12      4       1
+--------------------------------------------
 RESULT-         24      12      8       6
+--------------------------------------------
 (Prefix * Postfix)
 """
 
@@ -53,8 +55,8 @@ def productExceptSelf(nums):
     print("Result", result)
     return result
 
-nums = [1,2,3,4];
-result = productExceptSelf(nums);
+nums = [1,2,3,4] 
+result = productExceptSelf(nums)
 print(result)
 
 

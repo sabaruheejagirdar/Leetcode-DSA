@@ -25,8 +25,8 @@ values   -->   []    [100]     [2]     [1]     []      []      []
 4. Iterate over the buckets in reverse order to gather the top k frequent elements.
 """
 
-
-def topKFrequent(nums, k):   
+# nums = [3,3,3,2,9,100,110,110,110]
+def topKFrequent(nums, k):    
 
     countOfNum = dict()
     freq = [[] for i in range(len(nums)+1)]
@@ -43,6 +43,7 @@ def topKFrequent(nums, k):
     for i in range(len(freq)-1, 0, -1):
         for n in freq[i]:
             res.append(n)
+            #res: [3,110]
             if len(res) == k:
                 return res
 
@@ -50,7 +51,7 @@ def topKFrequent(nums, k):
     
     return False
 
-nums = [3,3,3,2,9,100,110,110,110];
-target = 2;
-result = topKFrequent(nums, target);
+nums = [3,3,3,2,9,100,110,110,110]
+target = 2
+result = topKFrequent(nums, target) 
 print(result)

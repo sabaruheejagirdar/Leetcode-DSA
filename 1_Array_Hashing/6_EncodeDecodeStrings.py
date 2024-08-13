@@ -19,13 +19,13 @@ Decoding:
 
 """
 
-
+# dummy_input = ["saba#","ru#ee","54321"]
 def encode(strs):
     encodedStr = "";
     for perStr in strs:
         encodedStr = encodedStr + str(len(perStr)) + "#" + perStr
-    
     return encodedStr
+
 # encodedStr-> 5#saba#5#ru#ee5#54321
 
 def decode(str):
